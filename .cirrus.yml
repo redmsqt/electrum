@@ -7,7 +7,7 @@ task:
   matrix:
     - name: "unittests: py$ELECTRUM_PYTHON_VERSION"
       env:
-        ELECTRUM_IMAGE: python:$ELECTRUM_PYTHON_VERSION
+        ELECTRUM_IMAGE: python:$ELECTRUM_PYTHON_VERSIONg
       matrix:
        - env:
            ELECTRUM_PYTHON_VERSION: 3.10
